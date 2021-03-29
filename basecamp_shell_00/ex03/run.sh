@@ -1,0 +1,1 @@
+echo "ls -ump" > midLS
