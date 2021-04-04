@@ -12,7 +12,7 @@ void	ft_print_reverse_alphabet(void)
 	}
 }
 
-void main()
+int	main()
 {
 	ft_print_reverse_alphabet();
 }

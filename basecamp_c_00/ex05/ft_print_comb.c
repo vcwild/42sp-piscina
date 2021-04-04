@@ -1,9 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
-
-/*
-Print combination of n=10 elements with k=3
-*/
 
 void	ft_write(char f, char s, char t)
 {
@@ -15,7 +10,7 @@ void	ft_write(char f, char s, char t)
 void	ft_break(char f, char s, char t)
 {
 	if (f == '7' && s == '8' && t == '9')
-		write(1, "", 1);
+		return ;
 	else
 		write(1, ", ", 2);
 }
@@ -48,7 +43,7 @@ void	ft_print_comb(void)
 	}
 }
 
-void	main()
+int	main()
 {
 	ft_print_comb();
 }

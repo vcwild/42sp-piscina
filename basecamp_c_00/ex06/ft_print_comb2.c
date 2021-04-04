@@ -17,7 +17,7 @@ void ft_write(int a, int b)
 	write(1, &k, 1);
 	write(1, &l, 1);
 	if (i == '9' && j == '8' && k == '9' && l == '9')
-		return;
+		return ;
 	write(1, ", ", 2);
 }
 
@@ -40,7 +40,7 @@ void	ft_print_comb2(void)
 	}
 }
 
-void main()
+int main()
 {
 	ft_print_comb2();
 }

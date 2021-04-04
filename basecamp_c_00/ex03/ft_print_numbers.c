@@ -14,7 +14,8 @@ void	ft_print_numbers(void)
 	}
 }
 
-void main()
+int main()
 {
 	ft_print_numbers();
+	return (0);
 }
