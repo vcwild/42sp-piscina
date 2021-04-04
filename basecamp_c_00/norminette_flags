@@ -1,3 +1,2 @@
 # C_00
-gcc *.c -o a.out -Wall -Wextra -Werror
 norminette -R CheckForbiddenSourceHeader
