@@ -5,10 +5,10 @@ col1down	col2down	col3down	col4down
 row1left	row2left	row3left 	row4left
 row1right	row2right	row3right	row4right
 
-		[0]		[1]			[2]			[3]			[4]			[5]
-[0]		XX		col1up		col2up		col3up		col4up		XX
-[1]		row1left												row1right
-[2]		row2left												row2right
-[3]		row3left												row3right
-[4]		row4left												row4right
-[5]		XX		col1down	col2down	col3down	col4down	XX
+				[0]			[1]			[2]			[3]			
+				col1up		col2up		col3up		col4up		
+[0]		row1left												row1right
+[1]		row2left												row2right
+[2]		row3left												row3right
+[3]		row4left												row4right
+				col1down	col2down	col3down	col4down	
