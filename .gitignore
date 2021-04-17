@@ -1,3 +1,6 @@
 run.sh
 *.out
+*.o
+*.a
 .gitignore
+.vscode
