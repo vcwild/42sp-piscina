@@ -1,4 +1,4 @@
-void			ft_putchar(char c);
+#include "ft_putchar.h"
 
 typedef struct	s_boundary_params
 {

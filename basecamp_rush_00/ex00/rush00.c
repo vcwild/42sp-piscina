@@ -53,14 +53,14 @@ void	rush(int x, int y)
 	char	mid_arr[2];
 	char	bot_arr[3];
 
-	top_arr[0] = '/';
-	top_arr[1] = '*';
-	top_arr[2] = '\\';
-	mid_arr[0] = '*';
+	top_arr[0] = 'o';
+	top_arr[1] = '-';
+	top_arr[2] = 'o';
+	mid_arr[0] = '|';
 	mid_arr[1] = ' ';
-	bot_arr[0] = '\\';
-	bot_arr[1] = '*';
-	bot_arr[2] = '/';
+	bot_arr[0] = 'o';
+	bot_arr[1] = '-';
+	bot_arr[2] = 'o';
 	ft_print_boundary(x, y, top_arr);
 	ft_print_middle_line(x, y, mid_arr);
 	if (y >= 2)
